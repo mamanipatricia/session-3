@@ -2,6 +2,8 @@ name: AWS OIDC Demo
 
 on:
   workflow_dispatch:
+branches:
+    - master
 
 permissions:
   id-token: write     # required for OIDC
